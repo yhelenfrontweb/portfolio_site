@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #6e6969;
+	font-weight: 300;
+}
+a:link {
+	text-decoration: none;
+	color: #b1acac;
+}
+a:visited {
+	text-decoration: none;
+	color: #b1acac;
+}
+a:hover {
+	text-decoration: none;
+	color:  #271212;
+}
+a:active {
+	text-decoration: none;
+}
+.bgimage {
+	background-color: #271212;
+	background-position: center center;
+	background-size: cover;
+	height: 80px;
+}
+.text-muted {
+	color: #b1acac;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+ .text-thin: {
+ font-weight: 100;
+}
+.title-super {
+	font-size: 60px;
+	font-weight: 200;
+}
+.my-name {
+	padding-top: 30px;
+}
+.title-logo {
+	margin-top: 20px;
+}
+.my-logo {
+	text-align: left;
+}
+.img-responsive {
+	max-width: 100%;
+}
+.header-container {
+	text-align: center;
+}
+.facts-container {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.img {
+	max-width: 300px;
+	margin-right: Shorthand;
+	margin-left: Shorthand;
+	margin-bottom: Set;
+	display: inline;
+}
+.modal-dialog {
+	width: 400px;
+}
+.modal-text {
+	padding-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+.my-logo {
+	text-align: center;
+}
+.my-name {
+	padding-top: 30px;
+	text-align: center;
+}
+.facts-container {
+	padding-bottom: 20px;
+}
+.modal-content {
+	width: 70%;
+}
+.img-facts {
+	max-width: 80%;
+}
+}
+
+@media (max-width: 320px) {
+.my-logo {
+	text-align: center;
+}
+.my-name {
+	padding-top: 30px;
+	text-align: center;
+}
+.facts-container {
+	padding-bottom: 20px;
+}
+.modal-content {
+	width: 70%;
+}
+.img-facts {
+	max-width: 70%;
+}
+}
